@@ -1,14 +1,14 @@
 {
   "name": "jsongoose",
   "version": "0.0.1",
-  "description": "A cli tool converting a json to mongoose scheme",
+  "description": "A cli tool converting a json to mongoose schema",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amazingandyyy/greeting-cli.git"
+    "url": "git+https://github.com/didx/jsongoose.git"
   },
   "keywords": [
     "json",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amazingandyyy/greeting-cli/issues"
+    "url": "https://github.com/didx/greeting-cli/issues"
   },
-  "homepage": "https://github.com/amazingandyyy/greeting-cli#readme",
+  "homepage": "https://github.com/didx/greeting-cli#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "figlet": "^1.2.0",

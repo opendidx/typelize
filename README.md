@@ -1,5 +1,5 @@
 # jsongoose
-A cli tool converting a json to mongoose scheme
+A cli tool converting a json to mongoose schema
 
 ## Intallation
 ```command
