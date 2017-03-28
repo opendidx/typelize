@@ -95,12 +95,12 @@ $ new file ./typelize-result.json is created
 
 #### 2. Send [Pull Request](https://github.com/opendidx/typelize/pulls)
 todolist:
-- [x] Suport json file
-- [ ] Better documantation
-- [ ] Better --help message
-- [ ] Suport more formate
-- [ ] Suport flow output
-- [ ] Suport mongoose output
+- [x] Support json file
+- [ ] Better documentation
+- [ ] Better --help flag
+- [ ] Support more formats
+- [ ] Support flow output
+- [ ] Support mongoose output
 - [ ] ... more
 
 
