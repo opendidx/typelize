@@ -1,0 +1,25 @@
+{
+  "_id": "String",
+  "instructors": {
+    "email": "String",
+    "firstName": "String",
+    "lastName": "String",
+    "phone": "Number",
+    "bio": "String",
+    "linkedinURL": "String",
+    "_id": "String",
+    "previousPosition": [
+      {
+        "affiliation": "String",
+        "position": "String"
+      }
+    ],
+    "cccomments": {
+      "affiliation": "String",
+      "position": "Number"
+    },
+    "imageURL": "String"
+  },
+  "createBy": "String",
+  "createAt": "Number"
+}
