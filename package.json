@@ -1,6 +1,6 @@
 {
   "name": "typelize",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A cli tool converting a json to schema with types",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didx/typelize.git"
+    "url": "git+https://github.com/opendidx/typelize.git"
   },
   "keywords": [
     "json",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/didx/greeting-cli/issues"
+    "url": "https://github.com/opendidx/greeting-cli/issues"
   },
-  "homepage": "https://github.com/didx/greeting-cli#readme",
+  "homepage": "https://github.com/opendidx/greeting-cli#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "figlet": "^1.2.0",
