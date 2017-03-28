@@ -1,9 +1,9 @@
-# jsontype
+# typify
 A cli tool converting a json to mongoose schema
 
 ## Intallation
 ```command
-$ npm i -g jsontype
+$ npm i -g typify
 ```
 
 ## Usage
@@ -27,5 +27,5 @@ $ ./data.mongoose.js create
 * Want to know me more? Visit my _[page](http://amazingandyyy.github.io/)_
 
 ### License
-[MIT](https://github.com/amazingandyyy/jsontype/blob/master/LICENSE)
+[MIT](https://github.com/amazingandyyy/typify/blob/master/LICENSE)
 

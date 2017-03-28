@@ -39,7 +39,7 @@ jsonfile.readFile(target_path, (err, file) => {
         return parentObj;
     }
     const exportFile = start({}, file);
-    jsonfile.writeFile('./jsontype-result.json', exportFile, {
+    jsonfile.writeFile('./typify-result.json', exportFile, {
         spaces: 2
     }, function (err) {
         if (err) {
