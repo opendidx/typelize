@@ -23,12 +23,18 @@ const cli = woofwoof(`
     }
 });
 
-console.log(chalk.yellow(figlet.textSync('typelize done!', {horizontalLayout: 'full'})));
 
 function hello(input, flags) {
     const target_path = input;
-    console.log('target_path', target_path);
-    read(input);
+    read(input, (err, ok)=>{
+        if(err){
+            console.log(chalk.red('typelize failed, report this issue at: https://github.com/opendidx/typelize/issues . Thank you so much!'))
+        }
+        if(ok){
+            console.log(`${chalk.green('new file ./typelize-result.json is created')}`)
+            console.logfiglet.textSync('typelize done!', {horizontalLayout: 'full'});
+        }
+    })
 }
 
 hello(cli.input[0], cli.flags);

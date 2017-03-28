@@ -1,6 +1,6 @@
 {
   "name": "typelize",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A cli tool converting a json to schema with types",
   "main": "index.js",
   "scripts": {

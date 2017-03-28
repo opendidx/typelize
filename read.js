@@ -2,7 +2,7 @@ var jsonfile = require('jsonfile')
 
 const target_path = './data.json';
 
-module.exports = function(target_path){
+module.exports = function(target_path, cb){
     jsonfile.readFile(target_path, (err, file)=>{
         function start(parentObj, obj){
             var keyArr = Object.keys(obj);
@@ -40,7 +40,8 @@ module.exports = function(target_path){
         }
         const exportFile = start({},file);
         jsonfile.writeFile('./typelize-result.json', exportFile, {spaces: 2}, function(err){
-            if(err){console.log(err)}
+            if(err){cb(err, null)}
+            cb(null, true)
         })
     })
 }

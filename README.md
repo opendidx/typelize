@@ -8,18 +8,26 @@ $ npm i -g typelize
 
 ## Usage
 
-
-- Default
 ```
 // input
-$ jg ./data.json
+$ typelize ./data.json
 
 // output
-$ ./data.mongoose.js create
+$ 
+                              _   _                      _                          _
+ | |_   _   _   _ __     ___  | | (_)  ____   ___      __| |   ___    _ __     ___  | |
+ | __| | | | | | '_ \   / _ \ | | | | |_  /  / _ \    / _` |  / _ \  | '_ \   / _ \ | |
+ | |_  | |_| | | |_) | |  __/ | | | |  / /  |  __/   | (_| | | (_) | | | | | |  __/ |_|
+  \__|  \__, | | .__/   \___| |_| |_| /___|  \___|    \__,_|  \___/  |_| |_|  \___| (_)
+        |___/  |_|
 ```
 
-## About
 
+
+
+
+
+---
 ### Auther
 [Amazingandyyy](amazingandyyy.github.io)
 ![Amazingandyyy](http://i.imgur.com/4oQCR2R.png)
