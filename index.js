@@ -3,13 +3,13 @@
 'use strict';
 
 const woofwoof = require('woofwoof');
-var chalk = require('chalk');
-var figlet = require('figlet');
-var fs = require('fs');
-
+const chalk = require('chalk');
+const figlet = require('figlet');
+const fs = require('fs');
+const read = require('./read');
 const cli = woofwoof(`
     Usage
-    $ jsongoose <input>
+    $ jsontype <input>
 
     Options
     --name, -n  Who should I greet
@@ -23,15 +23,12 @@ const cli = woofwoof(`
     }
 });
 
-console.log(chalk.yellow(figlet.textSync('jsongoose!', {horizontalLayout: 'full'})));
+console.log(chalk.yellow(figlet.textSync('jsontype!', {horizontalLayout: 'full'})));
 
 function hello(input, flags) {
     const target_path = input;
     console.log('target_path', target_path);
-    fs.readFile(target_path, (err, file)=>{
-        let read_file = JSON.parse(file);
-        console.log(read_file._id)
-    })
+    read(input);
 }
 
 hello(cli.input[0], cli.flags);

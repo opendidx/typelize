@@ -1,14 +1,14 @@
 {
-  "name": "jsongoose",
+  "name": "jsontype",
   "version": "0.0.1",
-  "description": "A cli tool converting a json to mongoose schema",
+  "description": "A cli tool converting a json to schema with types",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didx/jsongoose.git"
+    "url": "git+https://github.com/didx/jsontype.git"
   },
   "keywords": [
     "json",
@@ -17,7 +17,7 @@
   ],
   "author": "amazingnadyyy",
   "bin": {
-    "jg": "./index.js"
+    "jt": "./index.js"
   },
   "license": "MIT",
   "bugs": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "chalk": "^1.1.3",
     "figlet": "^1.2.0",
+    "jsonfile": "^2.4.0",
     "woofwoof": "^3.6.7"
   }
 }

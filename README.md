@@ -1,9 +1,9 @@
-# jsongoose
+# jsontype
 A cli tool converting a json to mongoose schema
 
 ## Intallation
 ```command
-$ npm i -g jsongoose
+$ npm i -g jsontype
 ```
 
 ## Usage
@@ -27,5 +27,5 @@ $ ./data.mongoose.js create
 * Want to know me more? Visit my _[page](http://amazingandyyy.github.io/)_
 
 ### License
-[MIT](https://github.com/amazingandyyy/jsongoose/blob/master/LICENSE)
+[MIT](https://github.com/amazingandyyy/jsontype/blob/master/LICENSE)
 
