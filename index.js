@@ -32,7 +32,7 @@ function hello(input, flags) {
         }
         if(ok){
             console.log(`${chalk.green('new file ./typelize-result.json is created')}`)
-            console.logfiglet.textSync('typelize done!', {horizontalLayout: 'full'});
+            console.log(figlet.textSync('typelize done!', {horizontalLayout: 'full'}));
         }
     })
 }
