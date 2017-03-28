@@ -13,7 +13,7 @@ $ npm i -g typelize
 $ typelize ./data.json
 
 // output
-$ 
+$ new file ./typelize-result.json is created
                               _   _                      _                          _
  | |_   _   _   _ __     ___  | | (_)  ____   ___      __| |   ___    _ __     ___  | |
  | __| | | | | | '_ \   / _ \ | | | | |_  /  / _ \    / _` |  / _ \  | '_ \   / _ \ | |
