@@ -2,9 +2,8 @@ var jsonfile = require('jsonfile')
 
 const target_path = './data.json';
 
-// module.exports = function(target_path){
-    fs.readFile(target_path, (err, file)=>{
-        var file = JSON.parse(file);
+module.exports = function(target_path){
+    jsonfile.readFile(target_path, (err, file)=>{
         function start(parentObj, obj){
             var keyArr = Object.keys(obj);
             keyArr.forEach(key=>{
@@ -44,4 +43,4 @@ const target_path = './data.json';
             if(err){console.log(err)}
         })
     })
-// }
+}

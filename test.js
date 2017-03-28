@@ -2,8 +2,8 @@ var jsonfile = require('jsonfile')
 
 const target_path = './data.json';
 
-fs.readFile(target_path, (err, file) => {
-    var file = JSON.parse(file);
+jsonfile.readFile(target_path, (err, file) => {
+    // var file = JSON.parse(file);
     function start(parentObj, obj) {
         var keyArr = Object.keys(obj);
         keyArr.forEach(key => {

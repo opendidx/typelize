@@ -23,7 +23,7 @@ const cli = woofwoof(`
     }
 });
 
-console.log(chalk.yellow(figlet.textSync('jsontype!', {horizontalLayout: 'full'})));
+console.log(chalk.yellow(figlet.textSync('jsontype done!', {horizontalLayout: 'full'})));
 
 function hello(input, flags) {
     const target_path = input;
