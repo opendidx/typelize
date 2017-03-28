@@ -1,5 +1,5 @@
 {
-  "name": "typify",
+  "name": "typelize",
   "version": "1.0.1",
   "description": "A cli tool converting a json to schema with types",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didx/typify.git"
+    "url": "git+https://github.com/didx/typelize.git"
   },
   "keywords": [
     "json",
@@ -17,7 +17,7 @@
   ],
   "author": "amazingnadyyy",
   "bin": {
-    "typify": "./index.js"
+    "typelize": "./index.js"
   },
   "license": "MIT",
   "bugs": {

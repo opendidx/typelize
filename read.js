@@ -39,7 +39,7 @@ module.exports = function(target_path){
             return parentObj;
         }
         const exportFile = start({},file);
-        jsonfile.writeFile('./typify-result.json', exportFile, {spaces: 2}, function(err){
+        jsonfile.writeFile('./typelize-result.json', exportFile, {spaces: 2}, function(err){
             if(err){console.log(err)}
         })
     })

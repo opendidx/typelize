@@ -9,7 +9,7 @@ const fs = require('fs');
 const read = require('./read');
 const cli = woofwoof(`
     Usage
-    $ typify <input>
+    $ typelize <input>
 
     Options
     --name, -n  Who should I greet
@@ -23,7 +23,7 @@ const cli = woofwoof(`
     }
 });
 
-console.log(chalk.yellow(figlet.textSync('typify done!', {horizontalLayout: 'full'})));
+console.log(chalk.yellow(figlet.textSync('typelize done!', {horizontalLayout: 'full'})));
 
 function hello(input, flags) {
     const target_path = input;

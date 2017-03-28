@@ -1,9 +1,9 @@
-# typify
+# typelize
 A cli tool converting a json to mongoose schema
 
 ## Intallation
 ```command
-$ npm i -g typify
+$ npm i -g typelize
 ```
 
 ## Usage
@@ -27,5 +27,5 @@ $ ./data.mongoose.js create
 * Want to know me more? Visit my _[page](http://amazingandyyy.github.io/)_
 
 ### License
-[MIT](https://github.com/amazingandyyy/typify/blob/master/LICENSE)
+[MIT](https://github.com/amazingandyyy/typelize/blob/master/LICENSE)
 
